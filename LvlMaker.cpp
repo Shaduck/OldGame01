@@ -29,7 +29,7 @@ int main(void)
 	gets(nomefile);
 	strcat(nomefile,".map");
 
-	fp=fopen(nomefile,"r");
+	fp=fopen(nomefile,"w");
 	nlevel=0;
 	if(!fp){
 		printf("\n\t File non trovato");
@@ -37,12 +37,12 @@ int main(void)
 		fread(&nlevel,sizeof(int),1,fp);
 	}
 
-	printf("\n\t Numero attuale di livelli: %d",nlevel);
+	printf("\n\t (Updated) Numero attuale di livelli: %d",nlevel);
 	printf("\n\t Inserta il numero di livelli da creare nella mappa:");
 	printf("\n\t (0 per non aggiungerne)");
 	scanf("%d",&i);
 	if(!i){
-		nlevel=0;
+		//nlevel=0;
 	}else{
 		nlevel+=i;
 	}
@@ -53,9 +53,6 @@ int main(void)
 
 	GameInit();
 	InitMPoints();
-
-
-
 
 
 	i=mappa.SetTextureFile("bmpdata.dat",1);
@@ -82,7 +79,8 @@ int main(void)
 												UNITX,UNITY);
 	}
 
-	sldbmp=load_bmp("D:/Djgpp/Game01/LvlMakSl.bmp",color);
+	sldbmp=load_bmp("LvlMakSl.bmp",color);
+
 
 	terbmp=create_bitmap(80,8);
 	for(i=0;i<10;i++){
@@ -90,7 +88,7 @@ int main(void)
 												UNITX,UNITY);
 	}
 
-	terbmp=load_bmp("D:\\Djgpp\\Game01\\LvlMakTr.bmp",color);
+	terbmp=load_bmp("LvlMakTr.bmp",color);
 
 ////// INIZIALIZZAZIONE DELLA MATRICE PRINCIPALE  /////////////
 
@@ -137,12 +135,12 @@ int main(void)
 
 //////////////////////////////////////////////////////////////////
 
-for(i=0,y=0,k=0;i<16;i++,y+=UNITY){
+	for(i=0,y=0,k=0;i<16;i++,y+=UNITY){
 		for(j=0,x=0;j<16;j++,x+=UNITX,k++){
 			blit(sprites[k],buffer,0,0,x,y,UNITX,UNITY);
 		}
 	}
-	readkey();
+	//readkey();
 
 /////////////////////////// PUTTAGGIO  ///////////////////////////
 
@@ -162,6 +160,7 @@ for(i=0,y=0,k=0;i<16;i++,y+=UNITY){
 
 	set_palette(color);
 
+	moved=true;
 
 	while(!key[KEY_ESC]){
 

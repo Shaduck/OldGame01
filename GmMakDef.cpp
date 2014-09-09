@@ -62,10 +62,10 @@ byte selectbar=0;
 const int NBARTEXT=16;
 
 const int TEXTBAR1X=0;
-const int TEXTBAR1Y=224;
+const int TEXTBAR1Y=220;
 
 const int TEXTBAR2X=160;
-const int TEXTBAR2Y=224;
+const int TEXTBAR2Y=220;
 
 const int TEXTBARLARGH=(NBARTEXT+2)*UNITX;
 const int TEXTBARALT=UNITY*2;
@@ -92,7 +92,7 @@ const int SOLIDBARALT=UNITY*2;
 ///////////////////// BARRE DEL TERRENO ///////////////////////////
 
 //byte selectbar=0;
-const int NBARTERR=10;
+const int NBARTERR=4;
 
 const int TERRBAR1X=0;
 const int TERRBAR1Y=205;
