@@ -6,8 +6,8 @@
 
 typedef unsigned char byte;
 
-#include"D:\Djgpp\Game01\Costanti.cpp"
-#include"D:\Djgpp\Game01\Common.hpp"
+#include"Costanti.cpp"
+#include"Common.hpp"
 
 
 const int BIGUNITX=16;				// Dimensione del cursore a dimensione
@@ -51,12 +51,12 @@ int MINIWINDY=10;
 int MINIWINDLARGH=WIMGX*UNITX;	//40;
 int MINIWINDALT=WIMGY*UNITY;	//40;
 
-const byte WIMGOFFX=2;				// Numero di unit… a dx e a sx di quella
+const byte WIMGOFFX=2;				// Numero di unità a dx e a sx di quella
 									// centrale nella finestra a grandezza
 									// naturale.
-const byte WIMGOFFY=2;				// Numero di unit… in alto e in basso
+const byte WIMGOFFY=2;				// Numero di unità in alto e in basso
 const byte WIMGX=(WIMGOFFX*2)+1;	// Larghezza e altezza complessiva in
-const byte WIMGY=(WIMGOFFY*2)+1;	// numero di unit…
+const byte WIMGY=(WIMGOFFY*2)+1;	// numero di unità
 const byte NWINDIMG=WIMGX*WIMGY;	// Numero di blocchi
 //byte windimg[WIMGY][WIMGX];			// matrice della finestra
 
@@ -97,7 +97,7 @@ int currenttile2;
 
 //////////////////////////////////////////////////////////////////////////
 
-#include"D:\Djgpp\Game01\ClMap.hpp"
+#include"ClMap.hpp"
 
 byte CURS_COL=7;
 byte CONF_COL=3;
