@@ -3,8 +3,8 @@
 #include<conio.h>
 #include<string.h>
 
-#include"D:\Djgpp\Game01\GmMakDef.cpp"
-#include"D:\Djgpp\Game01\GmMakFun.cpp"
+#include"GmMakDef.cpp"
+#include"GmMakFun.cpp"
 
 
 int main(void)

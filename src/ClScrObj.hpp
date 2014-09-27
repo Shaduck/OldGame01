@@ -1,8 +1,8 @@
 #ifndef CLSCREENOBJ_HPP
 #define CLSCREENOBJ_HPP
 
-#include<allegro.h>
-#include<default.h>
+#include <allegro.h>
+#include "default.h"
 
 	//  Alcune costanti devono essere esterne:
 	//	-	UNTIX	= 	Larghezza dei blocchi unitari
@@ -82,9 +82,9 @@ class T_ScreenObj{
 
 			byte testint(byte y,byte terr);		// linea y di test
 			byte testbottom(byte terr);			// livello dei piedi
-			byte testunder(byte terr,byte pos=0);	// sotto i piedi
+			byte testunder(byte terr,byte pos = 0);	// sotto i piedi
 			byte testtop(byte terr);			// livello della testa
-			byte testover(byte terr,byte pos=0);	// sopra la testa
+			byte testover(byte terr,byte pos = 0);	// sopra la testa
 
 			byte TestBorder(void);				// controlla se il 'coso'
 												// ha un lato esterno alla
@@ -121,6 +121,6 @@ class T_ScreenObj{
 
 		};
 
-#include"D:\djgpp\game01\ClScrObj.cpp"
+#include"ClScrObj.cpp"
 
 #endif

@@ -1,8 +1,8 @@
 typedef unsigned char byte;
 
-#include"D:\Djgpp\Game01\Costanti.cpp"
-#include"D:\Djgpp\Game01\Common.hpp"
-#include"D:\Djgpp\Game01\ClMap.hpp"
+#include"Costanti.cpp"
+#include"Common.hpp"
+#include"ClMap.hpp"
 
 const int BIGUNITX=16;				// Dimensione del cursore a dimensione
 const int BIGUNITY=16;				// raddoppiata

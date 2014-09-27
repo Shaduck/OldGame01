@@ -2,9 +2,9 @@
 #define CLCHAR_HPP
 
 #include<allegro.h>
-#include<default.h>
+#include"default.h"
 
-#include"D:\djgpp\game01\ClScrObj.hpp"
+#include"ClScrObj.hpp"
 
 	//  Alcune costanti devono essere esterne:
 	//	-	UNTIX	= 	Larghezza dei blocchi unitari
@@ -198,7 +198,7 @@ class T_Character : public T_ScreenObj{
 
 		};
 
-#include"D:\djgpp\game01\ClChar.cpp"
+#include"ClChar.cpp"
 //#include"D:\djgpp\game01\ClMove.cpp"
 
 #endif

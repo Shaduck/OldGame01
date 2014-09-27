@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OldGame01", "OldGame01.vcxproj", "{2A57842A-F342-4189-B646-540E0583BC7C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OldGame01", "OldGame01\OldGame01.vcxproj", "{2A57842A-F342-4189-B646-540E0583BC7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OldGame01_Maker", "OldGame01_Maker\OldGame01_Maker.vcxproj", "{2AB51858-242E-47D5-8A80-57C810FC27B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A57842A-F342-4189-B646-540E0583BC7C}.Debug|Win32.Build.0 = Debug|Win32
 		{2A57842A-F342-4189-B646-540E0583BC7C}.Release|Win32.ActiveCfg = Release|Win32
 		{2A57842A-F342-4189-B646-540E0583BC7C}.Release|Win32.Build.0 = Release|Win32
+		{2AB51858-242E-47D5-8A80-57C810FC27B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2AB51858-242E-47D5-8A80-57C810FC27B6}.Debug|Win32.Build.0 = Debug|Win32
+		{2AB51858-242E-47D5-8A80-57C810FC27B6}.Release|Win32.ActiveCfg = Release|Win32
+		{2AB51858-242E-47D5-8A80-57C810FC27B6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

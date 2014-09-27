@@ -5,6 +5,8 @@
 
 #include<math.h>
 
+const double M_PI = 3.14159265359;
+
 #define ERROR 0;
 #define OK 1;
 

@@ -1,11 +1,11 @@
 #ifndef CLMAP_HPP
 #define CLMAP_HPP
 
-#include<allegro.h>
-#include<default.h>
+#include <allegro.h>
+#include "default.h"
 
-#include"D:\djgpp\game01\ClLevel.hpp"
-#include"d:\djgpp\game01\ClTextur.hpp"
+#include "ClLevel.hpp"
+#include "ClTextur.hpp"
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -96,6 +96,6 @@ class T_Map{
 
 		};
 
-#include"D:\djgpp\game01\ClMap.cpp"
+#include "ClMap.cpp"
 
 #endif

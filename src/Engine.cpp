@@ -49,7 +49,7 @@ void engine(void)
 
 		//fp=fopen("D:\\DJGPP\\Project\\Mappa01.map","r");
 		//fp=fopen("Mappa01.map","r");
-		if(!mappa.SetMapFile("Indexmap.map"))
+		if(!mappa.SetMapFile("Indexmap.map", 1))
 			return;
 
 		//fclose(fp);
@@ -78,7 +78,7 @@ void engine(void)
 
 		pattern.LoadTexture(textures);
 		*/
-		if(!mappa.SetTextureFile("txtindex.txt")) // File indice
+		if(!mappa.SetTextureFile("txtindex.txt",1)) // File indice
 												// delle texture
 			return;
 

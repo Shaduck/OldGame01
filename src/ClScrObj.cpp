@@ -129,7 +129,7 @@ byte T_ScreenObj::testbottom(byte terr)
 	return 0;
 }
 
-byte T_ScreenObj::testunder(byte terr,byte pos=0)
+byte T_ScreenObj::testunder(byte terr,byte pos)
 {
 	pos++;
 	if(terreno[coordy+pos-1][coordx+topcp[0]]==terr){
@@ -161,7 +161,7 @@ byte T_ScreenObj::testtop(byte terr)
 	return 0;
 }
 
-byte T_ScreenObj::testover(byte terr,byte pos=0)
+byte T_ScreenObj::testover(byte terr,byte pos)
 {
 	pos++;
 	if(terreno[coordy-chaltezz-pos][coordx+topcp[0]]==terr){

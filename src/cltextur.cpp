@@ -33,7 +33,7 @@ void T_Texture::InitTexture(int textx,int texty)
 	XTEXTFILE=NXTEXTFILE*UNITX;
 	YTEXTFILE=NYTEXTFILE*UNITY;
 
-	texture=new (BITMAP *)[NTOTALTEXT];
+	texture = new BITMAP *[NTOTALTEXT];
 
 	for(int i=0;i<NTOTALTEXT;i++)
 		texture[i]=NULL;

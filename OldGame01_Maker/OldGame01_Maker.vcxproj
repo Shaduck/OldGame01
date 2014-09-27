@@ -10,8 +10,11 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\LvlMaker.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2A57842A-F342-4189-B646-540E0583BC7C}</ProjectGuid>
+    <ProjectGuid>{2AB51858-242E-47D5-8A80-57C810FC27B6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>OldGame01</RootNamespace>
   </PropertyGroup>
@@ -83,42 +86,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="bmpdata.h" />
-    <ClInclude Include="ClChar.hpp" />
-    <ClInclude Include="ClLevel.hpp" />
-    <ClInclude Include="ClMap.hpp" />
-    <ClInclude Include="ClMover.hpp" />
-    <ClInclude Include="ClPlayer.hpp" />
-    <ClInclude Include="ClScrObj.hpp" />
-    <ClInclude Include="ClSprite.hpp" />
-    <ClInclude Include="ClTerr.hpp" />
-    <ClInclude Include="ClTextur.hpp" />
-    <ClInclude Include="Common.hpp" />
-    <ClInclude Include="DEFAULT.H" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ClChar.cpp" />
-    <ClCompile Include="ClLevel.cpp" />
-    <ClCompile Include="ClMap.cpp" />
-    <ClCompile Include="ClMove.cpp" />
-    <ClCompile Include="ClMover.cpp" />
-    <ClCompile Include="ClScrObj.cpp" />
-    <ClCompile Include="ClSprite.cpp" />
-    <ClCompile Include="ClTerr.cpp" />
-    <ClCompile Include="ClTextur.cpp" />
-    <ClCompile Include="Costanti.cpp" />
-    <ClCompile Include="Engine.cpp" />
-    <ClCompile Include="Engine01.cpp" />
-    <ClCompile Include="ExLvlMak.cpp" />
-    <ClCompile Include="GmMakDef.cpp" />
-    <ClCompile Include="GmMakFun.cpp" />
-    <ClCompile Include="KeyButt.c" />
-    <ClCompile Include="LvlMaker.cpp" />
-    <ClCompile Include="MainGam.cpp" />
-    <ClCompile Include="NwLvlMak.cpp" />
-    <ClCompile Include="Timer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

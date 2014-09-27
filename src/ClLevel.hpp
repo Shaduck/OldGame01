@@ -2,8 +2,8 @@
 #ifndef CLLEVEL_HPP
 #define CLLEVEL_HPP
 
-#include<allegro.h>
-#include<default.h>
+#include <allegro.h>
+#include "default.h"
 
 
 	//  Alcune costanti devono essere esterne:
@@ -73,6 +73,6 @@ class T_Level{
 
 		};
 
-#include"D:\djgpp\game01\ClLevel.cpp"
+#include"ClLevel.cpp"
 
 #endif

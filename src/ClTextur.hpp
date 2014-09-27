@@ -2,8 +2,8 @@
 #ifndef CLTEXTURE_HPP
 #define CLTEXTURE_HPP
 
-#include<allegro.h>
-#include<default.h>
+#include <allegro.h>
+#include "default.h"
 
 	//  Alcune costanti devono essere esterne:
 	//	-   UNITX	=
@@ -66,6 +66,6 @@ class T_Texture{
 
 		};
 
-#include"D:\djgpp\game01\ClTextur.cpp"
+#include"ClTextur.cpp"
 
 #endif

@@ -3,7 +3,7 @@
 
 #include<allegro.h>
 
-#include<default.h>
+#include"default.h"
 
 
 volatile int timer=0;			// Temporizzazioni del game
@@ -23,20 +23,20 @@ void ticker()
 END_OF_FUNCTION(ticker);
 
 
-#include"d:\djgpp\game01\Costanti.cpp"
-#include"d:\djgpp\game01\Common.hpp"
+#include"Costanti.cpp"
+#include"Common.hpp"
 
-#include"d:\djgpp\game01\ClChar.hpp"
+#include"ClChar.hpp"
 
-#include"d:\djgpp\game01\ClMap.hpp"
-//#include"d:\djgpp\game01\ClTextur.hpp"
-//#include"d:\djgpp\game01\ClLevel.hpp"
+#include"ClMap.hpp"
+//#include"ClTextur.hpp"
+//#include"ClLevel.hpp"
 
 //RGB color[256];
 
 char errmess[30];
 
-#include"d:\djgpp\game01\Engine.cpp"
+#include"Engine.cpp"
 
 
 /************************************************************************
