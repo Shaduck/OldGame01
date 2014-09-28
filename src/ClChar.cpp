@@ -1,4 +1,8 @@
 
+#include "ClChar.h"
+
+#include "Costanti.h"
+
 T_Character::T_Character(void)
 {
 

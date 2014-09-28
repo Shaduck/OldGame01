@@ -11,7 +11,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\ClChar.cpp" />
+    <ClCompile Include="..\src\ClLevel.cpp" />
+    <ClCompile Include="..\src\ClMap.cpp" />
+    <ClCompile Include="..\src\ClScrObj.cpp" />
+    <ClCompile Include="..\src\cltexture.cpp" />
+    <ClCompile Include="..\src\Common.cpp" />
+    <ClCompile Include="..\src\Default.cpp" />
+    <ClCompile Include="..\src\Engine.cpp" />
     <ClCompile Include="..\src\MainGam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ClChar.h" />
+    <ClInclude Include="..\src\cllevel.h" />
+    <ClInclude Include="..\src\ClMap.h" />
+    <ClInclude Include="..\src\ClScrObj.h" />
+    <ClInclude Include="..\src\ClTexture.h" />
+    <ClInclude Include="..\src\Common.h" />
+    <ClInclude Include="..\src\Costanti.h" />
+    <ClInclude Include="..\src\Default.h" />
+    <ClInclude Include="..\src\Engine.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2A57842A-F342-4189-B646-540E0583BC7C}</ProjectGuid>
@@ -66,6 +85,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>allegro-4.4.2-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -84,6 +104,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>allegro-4.4.2-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,4 +1,9 @@
 
+#include "ClTexture.h"
+
+#include "Costanti.h"
+#include "Common.h"
+
 T_Texture::T_Texture(void)
 {
 	texture=NULL;
@@ -19,7 +24,6 @@ T_Texture::~T_Texture(void)
 		destroy_bitmap(global);
 
 }
-
 
 void T_Texture::InitTexture(int textx,int texty)
 {

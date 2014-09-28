@@ -121,6 +121,4 @@ class T_ScreenObj{
 
 		};
 
-#include"ClScrObj.cpp"
-
 #endif

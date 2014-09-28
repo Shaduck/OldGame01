@@ -3,8 +3,8 @@
 #include<conio.h>
 #include<string.h>
 
-#include"GmMakDef.cpp"
-#include"GmMakFun.cpp"
+#include"GmMakDef.h"
+#include"GmMakFun.h"
 
 
 int main(void)
@@ -22,14 +22,14 @@ int main(void)
 
 ///////////////////////////////////////////////////////////////////
 
-	filelog=fopen("LvlMake.log","w");
+	/*filelog =*/ fopen_s(&filelog, "LvlMake.log","w");
 
 	/////////// INPUT NOME FILE DELLA MAPPA   ///////////////////////
 	printf("\n\t Inserta il nome del file della mappa(senza est.) : ");
-	gets(nomefile);
-	strcat(nomefile,".map");
+	gets_s(nomefile);
+	strcat_s(nomefile,".map");
 
-	fp=fopen(nomefile,"w");
+	/*fp=*/fopen_s(&fp, nomefile, "w");
 	nlevel=0;
 	if(!fp){
 		printf("\n\t File non trovato");
@@ -40,7 +40,7 @@ int main(void)
 	printf("\n\t (Updated) Numero attuale di livelli: %d",nlevel);
 	printf("\n\t Inserta il numero di livelli da creare nella mappa:");
 	printf("\n\t (0 per non aggiungerne)");
-	scanf("%d",&i);
+	scanf_s("%d",&i);
 	if(!i){
 		//nlevel=0;
 	}else{
@@ -557,9 +557,11 @@ int main(void)
 
 	//puts(errmess);
 
-	getch();
+	_getch();
 
 
 	return 0;
 
 }
+
+END_OF_MAIN()

@@ -9,5 +9,46 @@
     <ClCompile Include="..\src\LvlMaker.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\GmMakDef.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GmMakFun.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clmap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClLevel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cltexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\GmMakDef.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GmMakFun.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClMap.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Costanti.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cllevel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClTexture.h">
+      <Filter>Src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

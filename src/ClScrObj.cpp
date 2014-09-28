@@ -1,4 +1,9 @@
 
+#include "ClScrObj.h"
+
+#include "Costanti.h"
+#include "Common.h"
+
 T_ScreenObj::T_ScreenObj(void)
 {
 
