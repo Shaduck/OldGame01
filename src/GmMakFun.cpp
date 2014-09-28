@@ -1,4 +1,12 @@
 
+#include "GmMakFun.h"
+
+#include <allegro.h>
+
+#include "Costanti.h"
+
+#include "GmMakDef.h"
+
 void GameInit(void)
 {
 

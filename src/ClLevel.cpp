@@ -1,13 +1,17 @@
 
+#include "cllevel.h"
 
-T_Level::T_Level(void)
+#include "Costanti.h"
+#include "Common.h"
+
+T_Level::T_Level()
 {
 	map=NULL;
 	sprite=NULL;
 
 }
 
-T_Level::~T_Level(void)
+T_Level::~T_Level()
 {
 	if(map)
 		delete [] map;

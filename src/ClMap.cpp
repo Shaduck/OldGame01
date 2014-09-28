@@ -1,4 +1,12 @@
 
+#include "ClMap.h"
+
+#include "Costanti.h"
+#include "Common.h"
+
+#include <cstdio>
+
+
 T_Map::T_Map(void)
 {
 	Mappa=NULL;
@@ -60,7 +68,7 @@ bool T_Map::SetMapFile(char *nome,int nlev)
 {
  	FILE *fmap;
 
-	fmap=fopen(nome,"r");
+	/*fmap=*/ fopen_s(&fmap, nome,"r");
 
 	if(!fmap)
 		return false;

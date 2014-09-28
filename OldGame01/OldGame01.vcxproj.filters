@@ -9,5 +9,58 @@
     <ClCompile Include="..\src\MainGam.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Engine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClChar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClMap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClLevel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cltexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClScrObj.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Default.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Costanti.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClMap.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClChar.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cllevel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClTexture.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClScrObj.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Default.h">
+      <Filter>Src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,11 +1,12 @@
-#ifndef CLMAP_HPP
-#define CLMAP_HPP
+
+#ifndef CLMAP_H
+#define CLMAP_H
 
 #include <allegro.h>
 #include "default.h"
 
-#include "ClLevel.hpp"
-#include "ClTextur.hpp"
+#include "ClLevel.h"
+#include "ClTexture.h"
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -95,7 +96,5 @@ class T_Map{
 			void RetTextBmp(int ntext,BITMAP *temp);
 
 		};
-
-#include "ClMap.cpp"
 
 #endif

@@ -23,12 +23,12 @@ void ticker()
 END_OF_FUNCTION(ticker);
 
 
-#include"Costanti.cpp"
-#include"Common.hpp"
+#include"Costanti.h"
+#include"Common.h"
 
-#include"ClChar.hpp"
+#include"ClChar.h"
 
-#include"ClMap.hpp"
+#include"ClMap.h"
 //#include"ClTextur.hpp"
 //#include"ClLevel.hpp"
 
@@ -36,7 +36,7 @@ END_OF_FUNCTION(ticker);
 
 char errmess[30];
 
-#include"Engine.cpp"
+#include"Engine.h"
 
 
 /************************************************************************
@@ -92,7 +92,7 @@ int main(void)
 
 	GameInit();
 
-	strcpy(errmess,"");
+	strcpy_s(errmess,"");
 
 /////////////////////////////////////////////////////////////////////////
 
@@ -140,3 +140,5 @@ int main(void)
 
    	return 0;
 }
+
+END_OF_MAIN()

@@ -1,6 +1,6 @@
 
-#ifndef CLTEXTURE_HPP
-#define CLTEXTURE_HPP
+#ifndef CLTEXTURE_H
+#define CLTEXTURE_H
 
 #include <allegro.h>
 #include "default.h"
@@ -65,7 +65,5 @@ class T_Texture{
 			void RetTotalBmp(BITMAP *tmp);
 
 		};
-
-#include"ClTextur.cpp"
 
 #endif

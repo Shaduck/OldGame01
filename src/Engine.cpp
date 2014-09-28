@@ -1,4 +1,15 @@
 
+#include "engine.h"
+
+#include "default.h"
+
+#include "costanti.h"
+
+#include "Common.h"
+
+#include "ClChar.h"
+#include "ClMap.h"
+
 bool button[128];	//	flag che servono per evitare la ripetizione
 						//	automatica dei tasti;
 

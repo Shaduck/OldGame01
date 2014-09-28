@@ -5,6 +5,7 @@
 #include <allegro.h>
 #include "default.h"
 
+#include <cstdio>
 
 	//  Alcune costanti devono essere esterne:
 	//	-	NSPRITEX	= 	Larghezza in blocchi della mappa
@@ -33,8 +34,8 @@ class T_Level{
 
 		public:
 
-			T_Level(void);
-			~T_Level(void);
+			T_Level();
+			~T_Level();
 
 			//////////////  FUNZIONI PER IL GIOCO  //////////////////////
 
@@ -73,6 +74,5 @@ class T_Level{
 
 		};
 
-#include"ClLevel.cpp"
 
 #endif

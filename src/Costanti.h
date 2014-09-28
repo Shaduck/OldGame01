@@ -1,4 +1,9 @@
 
+#ifndef _COSTANTI_H_
+#define _COSTANTI_H_
+
+#include "default.h"
+
 ///////////  COSTANTI  GESTIONE  SCHEMI ////////////////////////////
 
 const byte LEFT_SPACE=5;
@@ -77,3 +82,5 @@ const byte NOSOLID=0;
 	//	Maschera per i tipi di terreno dello schema
 
 //level mask[MASKY][MASKX];
+
+#endif
