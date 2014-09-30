@@ -65,7 +65,8 @@ void GameInit(void)
    	install_keyboard();
    	install_timer();
 
-   	if(set_gfx_mode(GFX_AUTODETECT,RESOLUTION_X,RESOLUTION_Y, 0, 0)<0){
+   	//if(set_gfx_mode(GFX_AUTODETECT,RESOLUTION_X,RESOLUTION_Y, 0, 0)<0){
+	if(set_gfx_mode(GFX_AUTODETECT_WINDOWED,RESOLUTION_X,RESOLUTION_Y, 0, 0)<0){
    		GameExit();
 		printf("Impossibile impostare la scheda grafica!");
    		exit(-1);
@@ -82,6 +83,8 @@ int main(void)
 
 /////////////////////// Inizializzazione Programma //////////////////////////
 
+	GameInit();
+
 	LOCK_VARIABLE(timer);
 	LOCK_VARIABLE(second);
     LOCK_FUNCTION(ticker);
@@ -90,7 +93,7 @@ int main(void)
 		return 1;
 	}
 
-	GameInit();
+	
 
 	strcpy_s(errmess,"");
 
